@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Parameterizable View Controller Ex ${message}</h1>
+	<h1>Bean Name Url Handler Mapping </h1>
+	<h2>Welcome ${message}</h2>
 </body>
 </html>

@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Parameterizable View Controller Ex ${message}</h1>
+	<h1>Greeting ${message}</h1>
 </body>
 </html>

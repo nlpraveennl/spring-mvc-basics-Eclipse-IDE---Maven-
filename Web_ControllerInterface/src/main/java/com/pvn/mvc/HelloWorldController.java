@@ -6,13 +6,15 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
+
 public class HelloWorldController implements Controller
 {
-
-	public ModelAndView handleRequest(HttpServletRequest req, HttpServletResponse resp) throws Exception
+	public ModelAndView handleRequest(HttpServletRequest req,
+	HttpServletResponse resp) throws Exception 
 	{
 		System.out.println("Handling Request");
-		String message = req.getParameter("name");
-		return new ModelAndView("success", "message", message);
+		String message=req.getParameter("name");
+		return new ModelAndView("success","message",message);
 	}
+	
 }
